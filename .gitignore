@@ -1,0 +1,44 @@
+# ===== macOS =====
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# ===== Xcode =====
+xcuserdata/
+*.xcuserstate
+*.xcscmblueprint
+*.xccheckout
+DerivedData/
+build/
+*.moved-aside
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Playgrounds
+timeline.xctimeline
+playground.xcworkspace
+
+# ===== Swift Package Manager =====
+.build/
+.swiftpm/
+Packages/
+Package.resolved
+
+# ===== Editors =====
+.vscode/
+.idea/
+*.swp
+*~
+
+# ===== Secrets (never commit) =====
+.env
+.env.*
+*.pem
+*.p8
+*.p12
+*.mobileprovision
